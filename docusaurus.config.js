@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'KOLLI',
+  tagline: 'IT Consulting and Software Development',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kolli', // Usually your GitHub org/user name.
+  projectName: 'reactive', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -57,24 +57,43 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'KOLLI',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg', // TODO: Replace logo
         },
         items: [
           {
+            href: '/services',
+            label: 'Services',
+            position: 'left',
+          },
+          {
+            href: '/team',
+            label: 'Team',
+            position: 'left',
+          },
+          {
+            href: '/markdown-page',
+            label: 'md',
+            position: 'left',
+          },
+          {
+          href: '/experiments/',
+          label: 'Experiments',
+          position: 'right',
+          },
+          {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
             position: 'right',
+            label: 'Docs',
           },
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'right'
+        },
         ],
       },
       footer: {
@@ -94,15 +113,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://github.com/qualuo/reactive',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://github.com/qualuo/reactive',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://github.com/qualuo/reactive',
               },
             ],
           },
@@ -115,12 +134,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/qualuo/reactive',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kolli`,
       },
       prism: {
         theme: lightCodeTheme,

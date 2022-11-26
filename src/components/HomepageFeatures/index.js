@@ -4,32 +4,57 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'The People\'s Experiences',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Enterprise software that people love to use
+        We create human-centered enterprise software that has the polished, snappy feel of the best consumer apps.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Highly Customizable',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, nulla mollis mattis lacinia, erat metus fringilla felis, ut consequat nulla tortor ut felis.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, nulla mollis mattis lacinia, erat metus fringilla felis, ut consequat nulla tortor ut felis.
+      </>
+    ),
+  },
+  {
+    title: 'Award-Winning',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, nulla mollis mattis lacinia, erat metus fringilla felis, ut consequat nulla tortor ut felis.
+      </>
+    ),
+  },
+  {
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, nulla mollis mattis lacinia, erat metus fringilla felis, ut consequat nulla tortor ut felis.
+      </>
+    ),
+  },
+  {
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, nulla mollis mattis lacinia, erat metus fringilla felis, ut consequat nulla tortor ut felis.
       </>
     ),
   },

@@ -1,6 +1,6 @@
 endi:
   name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
+  title: Maintainer
   url: https://github.com/endiliey
   image_url: https://github.com/endiliey.png
 
@@ -12,6 +12,12 @@ yangshun:
 
 slorber:
   name: Sébastien Lorber
-  title: Docusaurus maintainer
+  title: Maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+qualuo:
+  name: Quang Luong
+  title: Software Engineer
+  url: https://github.com/qualuo
+  image_url: https://avatars.githubusercontent.com/u/10774983?v=4
