@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+import Particles from '../components/tsparticles';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -18,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="TODO">
-            Sponsor
+            🏗️👷 UNDER CONSTRUCTION 🚧👷‍♀️
           </Link>
         </div>
       </div>

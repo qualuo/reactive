@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KOLLI',
-  tagline: 'IT Consulting and Software Development',
+  tagline: 'IT Consulting, Design and Software Development',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,6 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: false,
         title: 'KOLLI',
         logo: {
           alt: 'My Site Logo',
@@ -64,24 +65,40 @@ const config = {
         },
         items: [
           {
-            href: '/services',
+            to: '/services',
             label: 'Services',
             position: 'left',
           },
           {
-            href: '/team',
+            type: 'dropdown',
             label: 'Team',
             position: 'left',
+            items: [
+              {
+                label: 'Quang Luong',
+                to: '/team/qualuo',
+              },
+            ],
           },
           {
-            href: '/markdown-page',
-            label: 'md',
-            position: 'left',
-          },
-          {
-          href: '/experiments/',
-          label: 'Experiments',
-          position: 'right',
+            type: 'dropdown',
+            label: 'Experiments',
+            to: '/experiments',
+            position: 'right',
+            items: [
+              {
+                to: '/particles',
+                label: 'Particles',
+              },
+              {
+                to: '/particles2',
+                label: 'Particles 2',
+              },
+              {
+                to: '/youtube',
+                label: 'YouTube',
+              },
+            ],
           },
           {
             type: 'doc',
