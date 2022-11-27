@@ -91,10 +91,6 @@ const config = {
                 label: 'Particles',
               },
               {
-                to: '/particles2',
-                label: 'Particles 2',
-              },
-              {
                 to: '/youtube',
                 label: 'YouTube',
               },
