@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Kolli',
   tagline: 'Super Digital Agency',
-  url: 'https://qualuo.github.io/reactive/',
+  url: 'https://qualuo.github.io/',
   baseUrl: '/reactive/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

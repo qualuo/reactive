@@ -23,7 +23,8 @@
     "tsparticles": "^2.5.3"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.1"
+    "@docusaurus/module-type-aliases": "2.0.1",
+    "docusaurus": "^1.14.7"
   },
   "browserslist": {
     "production": [
