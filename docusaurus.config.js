@@ -9,7 +9,7 @@ const config = {
   title: 'Kolli',
   tagline: 'Super Digital Agency',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/reactive/index/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon/favicon.ico',
@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'qualuo', // Usually your GitHub org/user name.
   projectName: 'reactive', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: false
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
