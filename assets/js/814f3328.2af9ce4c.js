@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"About this site","permalink":"/reactive/blog/this-site"},{"title":"Hello World","permalink":"/reactive/blog/hello-world"},{"title":"Welcome","permalink":"/reactive/blog/welcome"}]}')}}]);
