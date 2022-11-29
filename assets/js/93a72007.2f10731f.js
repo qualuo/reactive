@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[7019],{9539:(e,a,t)=>{t.r(a),t.d(a,{default:()=>u});var c=t(7294),n=t(3285);const r="background_RAAP",s="iframe_Gnk9";function u(){return c.createElement(n.Z,null,c.createElement("div",{className:r},c.createElement("iframe",{className:s,src:"https://qualuo.github.io/"})))}}}]);
