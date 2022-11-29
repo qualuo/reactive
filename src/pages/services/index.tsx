@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-import styles from 'index.modules.css';
-
 export default function ReactPage() {
   return (
     <Layout>

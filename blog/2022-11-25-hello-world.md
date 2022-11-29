@@ -1,18 +1,16 @@
 ---
 slug: hello-world
 title: Hello World
-authors:
-  name: K
-  title: CEO
-  url: https://github.com/wgao19.png
-  image_url: https://github.com/wgao19.png
-tags: [hello, docusaurus]
+authors: [qualuo]
+tags: [hello, code highlight]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Not much here yet.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat.
 
 
-Code highlighting works. And these files can execute JavaScript code.
+Code highlighting works, and these files can execute JavaScript:
 
 ```js
 <button onClick={() => alert('button clicked!')}>Click me!</button>

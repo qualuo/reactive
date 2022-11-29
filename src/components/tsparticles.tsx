@@ -18,9 +18,11 @@ export default function TSParticles() {
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
-            options={{
+            height="100vh"
+            width="100vw"
+            options={{  // TODO: get this data from particles.json instead
                 fullScreen: {
-                    enable: true
+                    enable: false,
                 },
                 background: {
                     color: {
@@ -37,7 +39,7 @@ export default function TSParticles() {
                     },
                     modes: {
                         push: {
-                            quantity: 1,
+                            quantity: 2,
                         },
                         repulse: {
                             distance: 200,
@@ -51,7 +53,7 @@ export default function TSParticles() {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 100,
+                        distance: 150,
                         enable: true,
                         opacity: 0.2,
                         width: 1,
@@ -65,25 +67,25 @@ export default function TSParticles() {
                         outModes: {
                             default: "bounce",
                         },
-                        random: false,
-                        speed: 1,
+                        random: true,
+                        speed: 0.8,
                         straight: false,
                     },
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 1200,
                         },
-                        value: 200,
+                        value: 100,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.4,
                     },
                     shape: {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 3 },
+                        value: { min: 1, max: 5 },
                     },
                 },
                 detectRetina: true,

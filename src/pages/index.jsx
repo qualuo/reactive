@@ -5,9 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-import styles from './index.module.css';
+import styles from './home.module.css';
 
 import Particles from '../components/tsparticles';
+import particlesConfig from '../components/particles.json';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -28,16 +29,29 @@ function HomepageHeader() {
   );
 }
 
+
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Digital Times Require Digital Solutions`}
-      description="Pro">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+      <Layout title={`Digital Agency`} description="Pro">
+        <div onClick={randomizeColors} className={styles.homecontainer}>
+          <div className={styles.particles}> 
+            <Particles options={particlesConfig}></Particles>
+          </div>
+          
+          <div className={clsx(styles.home, styles.unselectable)}>
+            <h1 className={styles.homeh1}>{siteConfig.title}</h1>
+            <p className={styles.homeh2}>{siteConfig.tagline}</p>
+            <main>
+            </main>
+          </div>
+        </div>
+      </Layout>
   );
+}
+
+function randomizeColors() {
+  let random = Math.floor(Math.random() * 255);
+  // TODO: randomize the color of the particles
 }
